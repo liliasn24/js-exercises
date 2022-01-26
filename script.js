@@ -14,3 +14,9 @@ function dec(a, b) {
   console.log(res);
 }
 dec(5, 3);
+
+//Loops
+
+for (let number = 10; number <= 50; number++) {
+  console.log(number);
+}
