@@ -65,3 +65,7 @@ const reverseButNotJoin = string.split("").reverse();
 console.log(reverseButNotJoin);
 
 console.log(reverse);
+
+const newstr = "January, February, March";
+const strings = newstr.split("/");
+console.log(strings);
