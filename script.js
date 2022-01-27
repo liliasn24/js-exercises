@@ -44,3 +44,14 @@ while (number1 < 3) {
   number1++;
   console.log(number1);
 }
+
+// Split ()
+
+const string = "Hello my name is Lilia";
+const words = string.split(" ");
+console.log(words);
+console.log(words[2]);
+
+const characters = string.split("");
+console.log(characters);
+console.log(characters[0]);
