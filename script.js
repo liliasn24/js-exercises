@@ -55,3 +55,13 @@ console.log(words[2]);
 const characters = string.split("");
 console.log(characters);
 console.log(characters[0]);
+
+// Reversing a string using split
+
+const string = "Lilia";
+const reverse = string.split("").reverse().join("");
+const reverseButNotJoin = string.split("").reverse();
+
+console.log(reverseButNotJoin);
+
+console.log(reverse);
