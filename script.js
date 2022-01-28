@@ -69,3 +69,5 @@ console.log(reverse);
 const newstr = "January, February, March";
 const strings = newstr.split("/");
 console.log(strings);
+
+// identify the separator next time.
