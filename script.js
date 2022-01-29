@@ -85,3 +85,4 @@ console.log(days);
 let animals = ["leon", "fish", "dog", "cat"];
 let removeFish = animals.splice(1, 1);
 console.log(removeFish);
+console.log(animals);
