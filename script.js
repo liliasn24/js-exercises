@@ -71,3 +71,17 @@ const strings = newstr.split("/");
 console.log(strings);
 
 // identify the separator next time.
+
+// Splice
+
+const days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+
+days.splice(1, 0, "Tue");
+console.log(days);
+
+days.splice(3, 0, "hello");
+console.log(days);
+
+let animals = ["leon", "fish", "dog", "cat"];
+let removeFish = animals.splice(1, 1);
+console.log(removeFish);
