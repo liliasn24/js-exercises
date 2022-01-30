@@ -71,6 +71,8 @@ const strings = newstr.split("/");
 console.log(strings);
 
 // identify the separator next time.
+// if you add a space on the separator " ", then it will separate words not letter by letter.
+const word = newstr.split(" ");
 
 // Splice
 
