@@ -66,13 +66,15 @@ console.log(reverseButNotJoin);
 
 console.log(reverse);
 
-const newstr = "January, February, March";
-const strings = newstr.split("/");
+const newstr = "Jan/uary, Feb/ruary, Mar/ch";
+const strings = newstr.split("");
 console.log(strings);
 
 // identify the separator next time.
-// if you add a space on the separator " ", then it will separate words not letter by letter.
+// if you add a space on the separator " ", then it will separate words not letter by letter, but if you do "", note there is no space between the quotes, then it will break the string word by word. THE SEPARATOR IS WHATEVER YOU WANT TO LOOK FOR IN THE STRING AND MAKE THE SEPARATION THERE!! AH!!!
 const word = newstr.split(" ");
+const slash = newstr.split("/");
+console.log(slash);
 
 // Splice
 
