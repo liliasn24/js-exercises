@@ -90,3 +90,17 @@ let animals = ["leon", "fish", "dog", "cat"];
 let removeFish = animals.splice(1, 1);
 console.log(removeFish);
 console.log(animals);
+
+//Slice
+const fruits = [
+  "banana",
+  "apple",
+  "orange",
+  "strawberry",
+  "watermelon",
+  "kiwi",
+];
+
+console.log(fruits.slice(2));
+
+console.log(fruits.slice(1, 3));
