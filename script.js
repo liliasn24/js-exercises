@@ -104,3 +104,12 @@ const fruits = [
 console.log(fruits.slice(2));
 
 console.log(fruits.slice(1, 3));
+
+//Spread operator ...()
+
+let number = [0, 1, 2, 3, 4, 5];
+
+let newNumber = 12;
+
+number = [...number, newNumber];
+//  no need to console.log, when this runs, the number 12 will be added over and over on a new array.
