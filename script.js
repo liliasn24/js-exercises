@@ -113,3 +113,13 @@ let newNumber = 12;
 
 number = [...number, newNumber];
 //  no need to console.log, when this runs, the number 12 will be added over and over on a new array.
+
+// Reverse() method
+
+const arrayOriginal = ["one", "two", "three", "four", "five", "six"];
+console.log("original array:", arrayOriginal);
+
+const reversedArray = arrayOriginal.reverse();
+console.log("reversed array:", reversedArray);
+
+// NOTE: The original array has changed. if you console log the original array, it will print the reversed array. reverse is destructive, it changes the original array.
