@@ -123,3 +123,13 @@ const reversedArray = arrayOriginal.reverse();
 console.log("reversed array:", reversedArray);
 
 // NOTE: The original array has changed. if you console log the original array, it will print the reversed array. reverse is destructive, it changes the original array.
+
+// join method
+const itmes = ["table", "chair", "tv", "lamp"];
+console.log(items.join());
+//this creates a string of all the items with a coma
+
+console.log(itmes.join(""));
+//this creates a string of all the items with no coma
+console.log(items.join("-"));
+//this creates a string of all the items with a dash between the items
