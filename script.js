@@ -133,3 +133,31 @@ console.log(itmes.join(""));
 //this creates a string of all the items with no coma
 console.log(items.join("-"));
 //this creates a string of all the items with a dash between the items
+
+// Binary Search algorith
+const hairMetal = [
+  "Kiss",
+  "Guns n Roses",
+  "Van Halen",
+  "Sammy Hagar",
+  "Aerosmith",
+  "Twisted Sister",
+  "Motley Crue",
+  "White Snake",
+  "Poison",
+  "Europe",
+];
+let searchTerm = "Def Leppard";
+let found = false;
+let index = -1;
+for (let i = 0; i < hairMetal.length; i++) {
+  if (hairMetal[i] === "Def Leppard") {
+    found = true;
+    index = i;
+  }
+}
+if (found) {
+  console.log(`${searchTerm} is located at index ${index} in the array`);
+} else {
+  console.log(`${searchTerm} not found`);
+}
