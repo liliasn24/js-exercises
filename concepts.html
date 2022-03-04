@@ -169,4 +169,19 @@ Doubly lists go backward and forward, ie the next and before song in a plylist.
     Closed addressing (aka, chaining).
 
     probing: If the index generated for a key is already taken, jump to somewhere else in the table to store your key. 
+
+    The three most common types of open addressing are linear probing, quadratic probing, and double hashing
+
+    Linear Probing
+If the slot at the hashed index is occupied, look one slot to the right. Keep doing this until an open slot is found.
+
+Quadratic Probing
+If the slot at the hashed index is occupied, square the number of steps you take to the right (i.e., take one step, then four, then nine, then 16, then 25, etc.) until you find an open slot.
+
+Double hashing 
+Come up with a secondary hash function. It must not ever return 0 and it must be able to return all addresses in the table.
+
+
+
+
 </p>
