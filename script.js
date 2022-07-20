@@ -161,3 +161,17 @@ if (found) {
 } else {
   console.log(`${searchTerm} not found`);
 }
+
+function fizzBuzz(n) {
+  for (let i = 1; i <= n; i++) {
+    if (i % 15 === 0) {
+      console.log(i + " fizzbuzz");
+    } else if (i % 3 === 0) {
+      console.log(i + " fizz");
+    } else if (i % 5 === 0) {
+      console.log(i + " buzz");
+    }
+  }
+}
+
+fizzBuzz(30);
