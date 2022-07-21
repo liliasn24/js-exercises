@@ -175,3 +175,13 @@ function fizzBuzz(n) {
 }
 
 fizzBuzz(30);
+
+//Write a function that takes an integer minutes and converts it to seconds. Edabit exercise 7/20
+
+function convert(minutes) {
+  let seconds = minutes * 60;
+  console.log(seconds);
+  return seconds;
+}
+
+convert(10);
