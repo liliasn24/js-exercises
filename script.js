@@ -193,3 +193,9 @@ function giveMeSomething(a) {
 giveMeSomething("is better than nothing");
 giveMeSomething("interesting");
 giveMeSomething("something");
+
+function findPerimeter(length, width) {
+  return length * 2 + width * 2;
+}
+
+findPerimeter(6, 7);
