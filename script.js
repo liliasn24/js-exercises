@@ -185,3 +185,11 @@ function convert(minutes) {
 }
 
 convert(10);
+
+function giveMeSomething(a) {
+  return "something " + a;
+}
+
+giveMeSomething("is better than nothing");
+giveMeSomething("interesting");
+giveMeSomething("something");
