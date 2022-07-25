@@ -237,7 +237,7 @@ isSameNum(2, 2);
 isSameNum(2, "2");
 
 // why is this function better?
-// because strict equality
+// because strict equality (see line 221 in concepts html)
 
 function isSameNum(num1, num2) {
   return num1 === num2;
