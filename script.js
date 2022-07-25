@@ -215,3 +215,30 @@ function convert(minutes) {
 
 convert(5);
 convert(3);
+
+function howManySeconds(hours) {
+  return hours * 60 * 60;
+}
+
+howManySeconds(2);
+howManySeconds(50);
+howManySeconds(100);
+
+function isSameNum(num1, num2) {
+  if (num1 === num2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+isSameNum(4, 8);
+isSameNum(2, 2);
+isSameNum(2, "2");
+
+// why is this function better?
+// because strict equality
+
+function isSameNum(num1, num2) {
+  return num1 === num2;
+}
