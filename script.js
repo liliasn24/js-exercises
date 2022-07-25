@@ -242,3 +242,12 @@ isSameNum(2, "2");
 function isSameNum(num1, num2) {
   return num1 === num2;
 }
+
+
+
+
+isSeven(4) ➞ false
+
+isSeven(9) ➞ false
+
+isSeven(7) ➞ true
