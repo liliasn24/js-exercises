@@ -208,3 +208,10 @@ remainder(1, 3);
 remainder(3, 4);
 remainder(-9, 45);
 remainder(5, 5);
+
+function convert(minutes) {
+  return minutes * 60;
+}
+
+convert(5);
+convert(3);
