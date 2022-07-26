@@ -261,5 +261,12 @@ getFirstValue([1, 2, 3])
 getFirstValue([80, 5, 100])
 
 
+// Create a function that takes a boolean variable flag and returns it as a string.
+
+
+function boolToString(flag) {
+	return flag.toString();
+}
+boolToString(true)
 
 
