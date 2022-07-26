@@ -243,11 +243,23 @@ function isSameNum(num1, num2) {
   return num1 === num2;
 }
 
-
-
-
 isSeven(4) ➞ false
 
 isSeven(9) ➞ false
 
 isSeven(7) ➞ true
+
+
+
+// Create a function that takes an array containing only numbers and return the first element.
+
+function getFirstValue(arr) {
+	return arr[0];
+}
+
+getFirstValue([1, 2, 3])
+getFirstValue([80, 5, 100])
+
+
+
+
