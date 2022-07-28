@@ -279,3 +279,8 @@ boolToString(true)
 function sumPolygon(n) {
 	return (n - 2) * 180;
 }
+
+function and(a, b) {
+
+	return a > 0 && b > 0;
+}
