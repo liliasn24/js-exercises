@@ -284,3 +284,10 @@ function and(a, b) {
 
 	return a > 0 && b > 0;
 }
+
+// arrow function 
+
+arrowFunc = (n) => n;
+
+arrowFunc(3);
+arrowFunc(true);
