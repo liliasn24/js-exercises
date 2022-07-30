@@ -291,3 +291,6 @@ arrowFunc = (n) => n;
 
 arrowFunc(3);
 arrowFunc(true);
+
+// eval()
+console.log(eval('2+2'));
