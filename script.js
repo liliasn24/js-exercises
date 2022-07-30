@@ -294,3 +294,15 @@ arrowFunc(true);
 
 // eval()
 console.log(eval('2+2'));
+
+function calculator(str) {
+	return eval(str);
+}
+
+calculator("23+4")
+
+function calculator(str) {
+	return Function(str);
+}
+
+calculator("23+4")
