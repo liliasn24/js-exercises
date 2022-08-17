@@ -338,3 +338,9 @@ function greeting(name) {
 // addUp(13) ➞ 91
 
 // addUp(600) ➞ 180300
+
+//  the above function works, but heres a better answer. 
+
+function addUp(num) {
+  return (num * (num + 1))/2;
+}
