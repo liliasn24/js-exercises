@@ -325,7 +325,16 @@ function greeting(name) {
  }
 
  function addUp(num) {
-	for (let i = 0; i < num; i++) {
-    return i++;
-  }
+	let b = num / 2;
+	let c = 2 * 1;
+	let d = num - 1;
+	
+	return b * (c + d);
+	
 }
+
+// addUp(4) ➞ 10
+
+// addUp(13) ➞ 91
+
+// addUp(600) ➞ 180300
