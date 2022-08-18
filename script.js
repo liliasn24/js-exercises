@@ -344,3 +344,16 @@ function greeting(name) {
 function addUp(num) {
   return (num * (num + 1))/2;
 }
+
+
+//  Ternary Operation 
+
+function isSeven(x) {
+	return x == "7" ? true : false;
+}
+
+// isSeven(4) ➞ false
+
+// isSeven(9) ➞ false
+
+// isSeven(7) ➞ true
