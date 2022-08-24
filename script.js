@@ -357,3 +357,12 @@ function isSeven(x) {
 // isSeven(9) ➞ false
 
 // isSeven(7) ➞ true
+
+
+const convert = (hours, minutes) => hours * 3600 + minutes * 60
+
+//convert(1, 3) ➞ 3780
+
+//convert(2, 0) ➞ 7200
+
+//convert(0, 0) ➞ 0
