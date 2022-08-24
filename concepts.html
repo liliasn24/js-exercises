@@ -270,3 +270,14 @@ NOTE you must use the ... aka the spred operator otherwise it wont work
 <p>Recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a result. Most loops can be rewritten in a recursive style, and in some functional languages this approach to looping is the default.
 
     However, while JavaScript’s functional coding style does support recursive functions, we need to be aware that most JavaScript compilers are not currently optimized to support them safely.</p>
+
+   <h1>Arrow function expressions</h1>
+   <p> An arrow function expression is a compact alternative to a traditional function expression, but is limited and can't be used in all situations.
+        
+        There are differences between arrow functions and traditional functions, as well as some limitations:
+        
+        Arrow functions don't have their own bindings to this, arguments or super, and should not be used as methods.
+        Arrow functions don't have access to the new.target keyword.
+        Arrow functions aren't suitable for call, apply and bind methods, which generally rely on establishing a scope.
+        Arrow functions cannot be used as constructors.
+        Arrow functions cannot use yield, within its body.</p>
