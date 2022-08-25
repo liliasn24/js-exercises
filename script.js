@@ -366,3 +366,37 @@ const convert = (hours, minutes) => hours * 3600 + minutes * 60
 //convert(2, 0) ➞ 7200
 
 //convert(0, 0) ➞ 0
+
+
+function divisible(num) {
+	return num % 100 === 0;
+}
+
+// or arrow function yields the same result
+
+divisible = (num) => num % 100 === 0;
+
+// divisible(1) ➞ false
+
+// divisible(1000) ➞ true
+
+// divisible(100) ➞ true
+
+
+// See this code note the difference between arrow function and regular functions, both are correct
+
+function profitableGamble(prob, prize, pay) {
+	if (prob * prize > pay) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+profitableGamble = (prob, prize, pay) => prob * prize > pay;
+
+// profitableGamble(0.2, 50, 9) ➞ true
+
+// profitableGamble(0.9, 1, 2) ➞ false
+
+// profitableGamble(0.9, 3, 2) ➞ true
