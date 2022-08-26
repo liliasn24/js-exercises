@@ -400,3 +400,9 @@ profitableGamble = (prob, prize, pay) => prob * prize > pay;
 // profitableGamble(0.9, 1, 2) ➞ false
 
 // profitableGamble(0.9, 3, 2) ➞ true
+
+function divisibleByFive(n) {
+	return n % 5 === 0;
+}
+  // or arrow function 
+divisibleByFive = (n) => n % 5 === 0;
