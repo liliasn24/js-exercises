@@ -406,3 +406,7 @@ function divisibleByFive(n) {
 }
   // or arrow function 
 divisibleByFive = (n) => n % 5 === 0;
+
+
+//  ternary operator
+return (a + b == 10 || a == 10 || b== 10 ? true : false)
