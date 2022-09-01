@@ -297,3 +297,25 @@ NOTE you must use the ... aka the spred operator otherwise it wont work
 
                 ( conditions (can be more than 1) ? the output you want if true : the outpout you want if false)
         </p>
+
+        <h1>redundantc code</h1>
+        <p>if else statements:  Using an if statement in order to return boolean or to set a variable to a boolean is redundant 
+
+            //redundant code
+            function legalAge(age) {
+                if(age >= 18) {
+                  return true
+                }
+                else {
+                  return false
+                }
+              }
+              //better code
+              function legalAge(age) {
+                return age >= 18
+              }
+
+              even better code
+              legalAge = (age) => age >= 8;
+
+        </p>
