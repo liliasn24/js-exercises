@@ -410,3 +410,14 @@ divisibleByFive = (n) => n % 5 === 0;
 
 //  ternary operator
 return (a + b == 10 || a == 10 || b== 10 ? true : false)
+
+
+function calculateFuel(n) {
+	return ( n * 10 < 100 ? 100 : n * 10 );
+}
+
+// calculateFuel(15) ➞ 150
+
+// calculateFuel(23.5) ➞ 235
+
+// calculateFuel(3) ➞ 100
