@@ -421,3 +421,13 @@ function calculateFuel(n) {
 // calculateFuel(23.5) ➞ 235
 
 // calculateFuel(3) ➞ 100
+
+function getVoteCount(votes) {
+	return (votes.upvotes - votes.downvotes);
+}
+
+getVoteCount({ upvotes: 13, downvotes: 0 }) /* 13 */
+
+getVoteCount({ upvotes: 2, downvotes: 33 })  /* -31 */
+
+getVoteCount({ upvotes: 132, downvotes: 132 })  /*  0 */
