@@ -431,3 +431,13 @@ getVoteCount({ upvotes: 13, downvotes: 0 }) /* 13 */
 getVoteCount({ upvotes: 2, downvotes: 33 })  /* -31 */
 
 getVoteCount({ upvotes: 132, downvotes: 132 })  /*  0 */
+
+// ternary operation with 1 + conditions 
+const equilibrium = x => x > 0 ? 'positive' : x < 0 ? 'negative' : true;
+
+// this is the same as the above
+function equilibrium (x) {
+	if (x > 0) return "positive";
+	if (x < 0) return "negative";
+	return true;
+}
