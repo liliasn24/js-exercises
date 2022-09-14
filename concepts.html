@@ -344,3 +344,39 @@ NOTE you must use the ... aka the spred operator otherwise it wont work
             takes a string an evaluates as it they were numbers and operations
         </h1>
        
+
+        <h1>Using objetcs as parameters in a function </h1>
+        <p>Look at the test case, an object is like below 
+            
+            const myCar = new Object();
+            myCar.make = 'Ford';
+            myCar.model = 'Mustang';
+            myCar.year = 1969;
+        
+         you can access the properties if an object with the dot Notation
+         example myCar.model will give you Mustang.
+
+         the you can perform the operations you want with the properties of the object  see example in script file line 425
+         
+        </p>
+
+        <p>this is how you use the ternary operator with more than one conditions. ie you just ass another ? for every condition 
+            
+            const equilibrium = x => x > 0 ? 'positive' : x < 0 ? 'negative' : true;
+            
+        </p>
+
+        <h1>ES6 In Depth: Destructuring</h1>
+        <p>ES6 In Depth is a series on new features being added to the JavaScript programming language in the 6th Edition of the ECMAScript standard, ES6 for short.
+
+            What is destructuring assignment?
+Destructuring assignment allows you to assign the properties of an array or object to variables using syntax that looks similar to array or object literals. This syntax can be extremely terse, while still exhibiting more clarity than the traditional property access.
+
+Without destructuring assignment, you might access the first three items in an array like this:
+
+var first = someArray[0];
+var second = someArray[1];
+var third = someArray[2];
+        </p>
+
+        
