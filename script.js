@@ -441,3 +441,13 @@ function equilibrium (x) {
 	if (x < 0) return "negative";
 	return true;
 }
+
+// Destructuring arrays
+
+const arr = [1, 2, 3, 4, 5, 6]
+let [a, b] = arr /*but this is a better answer
+
+or */
+
+let a = arr[0];
+let b = arr[1];
