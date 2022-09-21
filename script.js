@@ -456,3 +456,9 @@ let b = arr[1];
 function returnNegative(n) {
 	return -Math.abs(n);
 }
+
+// Math.round
+function imposterFormula(i, p) {
+	let result = Math.rloor(100 * (i / p));
+	return `${result}`;
+}
