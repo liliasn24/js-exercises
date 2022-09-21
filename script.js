@@ -451,3 +451,8 @@ or */
 
 let a = arr[0];
 let b = arr[1];
+
+// Math.abs()
+function returnNegative(n) {
+	return -Math.abs(n);
+}
