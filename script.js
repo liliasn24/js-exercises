@@ -462,3 +462,9 @@ function imposterFormula(i, p) {
 	let result = Math.rloor(100 * (i / p));
 	return `${result}`;
 }
+
+// Logical Not (!)
+
+function flipBool(b) {
+	return !b === true ? 1 : 0;
+}
