@@ -468,3 +468,11 @@ function imposterFormula(i, p) {
 function flipBool(b) {
 	return !b === true ? 1 : 0;
 }
+
+// better simpler code.  note that we don't need the ! becuase b is getting evaluated already 
+const flipBool=b=> b ? 0 : 1;
+
+flipBool(true)
+flipBool(false)
+flipBool(1)
+flipBool(0)
