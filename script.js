@@ -476,3 +476,9 @@ flipBool(true)
 flipBool(false)
 flipBool(1)
 flipBool(0)
+
+// join method
+
+function arrayToString(arr) {
+	return arr.join();
+}
