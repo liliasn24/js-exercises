@@ -480,5 +480,21 @@ flipBool(0)
 // join method
 
 function arrayToString(arr) {
-	return arr.join();
+	return arr.join('');
 }
+
+
+// string to number and number to string conversion 
+
+function intToString(num) {
+	return `${num}`;
+}
+
+intToString(4)
+
+
+function stringToInt(num) {
+	return num * 1
+}
+
+stringToInt("4")
