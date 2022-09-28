@@ -498,3 +498,10 @@ function stringToInt(num) {
 }
 
 stringToInt("4")
+
+// leap year order of operations 
+
+function leapYear(year) {
+	return ((0 == year % 4) && (0 != year % 100) || (0 == year % 400));
+}
+leapYear(2020);
