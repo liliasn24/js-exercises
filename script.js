@@ -505,3 +505,11 @@ function leapYear(year) {
 	return ((0 == year % 4) && (0 != year % 100) || (0 == year % 400));
 }
 leapYear(2020);
+
+//eval() method
+
+function operate(num1, num2, operator) {
+	return eval(num1 + operator + num2)
+}
+
+operate(7, 10, "-")
