@@ -513,3 +513,21 @@ function operate(num1, num2, operator) {
 }
 
 operate(7, 10, "-")
+
+// decimals
+
+function areaShape(base, height, shape) {
+	return shape === "triangle" ?  (base * height) / 2 : base * height;
+}
+
+// either of these will work
+
+function areaShape(base, height, shape) {
+	return shape === 'triangle' ? 0.5 * base * height : base * height;
+}
+
+// areaShape(2, 3, "triangle") ➞ 3
+
+// areaShape(8, 6, "parallelogram") ➞ 48
+
+// areaShape(2.9, 1.3, "parallelogram") ➞ 3.77
