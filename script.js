@@ -531,3 +531,13 @@ function areaShape(base, height, shape) {
 // areaShape(8, 6, "parallelogram") ➞ 48
 
 // areaShape(2.9, 1.3, "parallelogram") ➞ 3.77
+
+
+// concatenating with spread operator and the concat method 
+function concat(arr1, arr2) {
+  return [...arr1,...arr2]
+  }
+
+  function concat(arr1, arr2) {
+    return arr1.concat(arr2);
+  }
