@@ -552,3 +552,16 @@ function concat(arr1, arr2) {
       countdown(n - 1)
     }
   }
+
+
+  //this is how you sum the elements of an array 
+
+  function sumArray(arr) {
+    let sum = 0;
+    for (i = 0; i < arr.length; i++) {
+      sum += arr[i]
+    }
+   return sum
+  }
+
+  sumArray([1, 2, 3, 4, 5]);
