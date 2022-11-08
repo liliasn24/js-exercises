@@ -565,3 +565,10 @@ function concat(arr1, arr2) {
   }
 
   sumArray([1, 2, 3, 4, 5]);
+
+
+  //arguments.lenght
+  function func1(a, b, c) {
+    console.log(arguments.length);
+  }
+ 
