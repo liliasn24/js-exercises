@@ -584,7 +584,13 @@ function concat(arr1, arr2) {
     return arr.filter(n=> n > num1 && n < num2);
   }
 
-  // note n or arr could be any letter not necesarly the array name
+  //or this 
+
+  function arrBetween(num1, num2, arr) {
+    return arr.filter(x=>x>num1 && x<num2);
+  }
+
+  // note n or arr or x could be any letter not necesarly the array name
 // arrBetween(3, 8, [1, 5, 95, 0, 4, 7]) ➞ [5, 4, 7]
 
 //arrBetween(1, 10, [1, 10, 25, 8, 11, 6]) ➞ [8, 6]
