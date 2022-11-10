@@ -602,3 +602,19 @@ function concat(arr1, arr2) {
 const frontThree = t => t.slice(0,3).repeat(3);
 
 frontThree("Python");
+
+
+function intToString(num) {
+	return `${num}`;
+}
+
+
+function stringToInt(num) {
+		return num * 1;
+}
+
+intToString(4)
+
+stringToInt("4") 
+
+intToString(29348)
