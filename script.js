@@ -596,3 +596,9 @@ function concat(arr1, arr2) {
 //arrBetween(1, 10, [1, 10, 25, 8, 11, 6]) ➞ [8, 6]
 
 //arrBetween(7, 32, [1, 2, 3, 78]) ➞ []
+
+// repeat method concatenating 
+
+const frontThree = t => t.slice(0,3).repeat(3);
+
+frontThree("Python");
