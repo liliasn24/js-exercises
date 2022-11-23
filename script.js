@@ -639,3 +639,37 @@ return obj;
 fiftyThirtyTwenty(10000)
 fiftyThirtyTwenty(50000)
 fiftyThirtyTwenty(13450)
+
+// here's another way 
+
+function fiftyThirtyTwenty(ati) {
+	return { "Needs": ati*0.5, "Wants": ati*0.3, "Savings": ati*0.2 }
+}
+
+// how to map an array of numbers and string into an array of strings only 
+
+function parseArray(arr) {
+	return arr.map(String);
+}
+
+
+// more objects
+
+function relationToLuke(name) {
+	
+	let obj = {
+		"Darth Vader": "father",
+		"Leia": "sister",
+		"Han": "brother in law",
+		"R2D2": "droid"
+	}
+return `Luke, I am your ${obj[name]}`
+}
+
+relationToLuke("Darth Vader")
+relationToLuke("Leia")
+relationToLuke("Han")
+relationToLuke("R2D2")
+
+
+
