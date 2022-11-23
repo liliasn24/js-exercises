@@ -618,3 +618,24 @@ intToString(4)
 stringToInt("4") 
 
 intToString(29348)
+
+
+var [first, second, third, ...other ] = [1, 2, 3, 4, 5, 6, 7, 8];
+
+
+function fiftyThirtyTwenty(ati) {
+	// 50% Needs, 30% wants, 20% Savings
+	
+	let obj = {
+		Needs: ati / 2,
+		Wants: ati * 0.3,
+		Savings: ati * 0.2
+	};
+	
+return obj;
+	
+}
+
+fiftyThirtyTwenty(10000)
+fiftyThirtyTwenty(50000)
+fiftyThirtyTwenty(13450)
