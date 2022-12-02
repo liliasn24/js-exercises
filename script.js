@@ -706,3 +706,14 @@ getContainer("Beer")
 getContainer("Candy")
 
 getContainer("Cheese")
+
+
+//replace and include methods 
+
+function amazingEdabit(str){
+  return str.includes("edabit") ? str : str.replace("amazing", "not amazing")
+}
+
+amazingEdabit("edabit is amazing.")
+
+amazingEdabit("Mubashir is amazing.")
