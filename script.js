@@ -728,3 +728,10 @@ obj.prop = 33;
 // Throws an error in strict mode
 
 console.log(obj.prop);
+
+
+//charAt method
+
+function firstLast(name){
+	return name.charAt(0) + name.charAt(name.length - 1);
+}
