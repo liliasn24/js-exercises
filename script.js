@@ -735,3 +735,17 @@ console.log(obj.prop);
 function firstLast(name){
 	return name.charAt(0) + name.charAt(name.length - 1);
 }
+
+// MULTIPLE CONDITION TERNARY
+
+function determineLever(arr) {
+	return arr[1] == 'f' ? 'first class lever' : 
+				 arr[2] == 'f' ? 'second class lever' :
+				 'third class lever';
+	}
+
+  //determineLever(["e", "f", "l"]) ➞ "first class lever"
+
+//determineLever(["e", "l", "f"]) ➞ "second class lever"
+
+//determineLever(["f", "e", "l"]) ➞ "third class lever"
