@@ -749,3 +749,12 @@ function determineLever(arr) {
 //determineLever(["e", "l", "f"]) ➞ "second class lever"
 
 //determineLever(["f", "e", "l"]) ➞ "third class lever"
+
+//ternary  - conditional actualy check if true or false 
+
+function moodToday(mood) {
+	return mood ? `Today, I am feeling ${mood}` : "Today, I am feeling neutral";
+}
+
+moodToday()
+moodToday("happy")
