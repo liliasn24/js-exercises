@@ -758,3 +758,14 @@ function moodToday(mood) {
 
 moodToday()
 moodToday("happy")
+
+
+function checkSquareAndCube(arr) {
+	return Math.sqrt(arr[0]) == Math.cbrt(arr[1])
+}
+
+//checkSquareAndCube([4, 8]) ➞ true
+
+//checkSquareAndCube([16, 48]) ➞ false
+
+//checkSquareAndCube([9, 27]) ➞ true 
