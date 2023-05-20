@@ -656,9 +656,41 @@ Freezing an object is the highest integrity level that JavaScript provides.
 <p>
     Destructuring assignment
 The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+The object and array literal expressions provide an easy way to create ad hoc packages of data.
+const x = [1, 2, 3, 4, 5];
+
+The destructuring assignment uses similar syntax, but on the left-hand side of the assignment to define what values to unpack from the sourced variable.
+
     
-    Object destructuring
+    const x = [1, 2, 3, 4, 5];
+    const [y, z] = x;
+    console.log(y); // 1
+    console.log(z); // 2
+
+same for objects 
+
+const obj = { a: 1, b: 2 };
+const { a, b } = obj;
+// is equivalent to:
+// const a = obj.a;
+// const b = obj.b;
+
+For both object and array destructuring, there are two kinds of destructuring patterns: binding pattern and assignment pattern, with slightly different syntaxes.
+
+In binding patterns, the pattern starts with a declaration keyword (var, let, or const). Then, each individual property must either be bound to a variable or further destructured.
 
 
+REST property
 
+You can end a destructuring pattern with a rest property ...rest. This pattern will store all remaining properties of the object or array into a new object or array.
+
+const { a, ...others } = { a: 1, b: 2, c: 3 };
+console.log(others); // { b: 2, c: 3 }
+
+const [first, ...others2] = [1, 2, 3];
+console.log(others2); // [2, 3]
+
+
+The rest property must be the last in the pattern, and must not have a trailing comma.
 </p>
