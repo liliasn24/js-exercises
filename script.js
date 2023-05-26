@@ -769,3 +769,16 @@ function checkSquareAndCube(arr) {
 //checkSquareAndCube([16, 48]) ➞ false
 
 //checkSquareAndCube([9, 27]) ➞ true 
+
+
+const user = { name: "John", email: "john@example.com",city: "Phoenix", state: "AZ", country: "USA"}
+const str = `({ name, email, ...rest} = user ).toString()`
+
+
+function absolute(n) {
+	return n > 0 ? n : n * -1;
+}
+
+absolute(-12.1320)
+
+absolute(4666)
