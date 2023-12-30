@@ -784,3 +784,15 @@ absolute(-12.1320)
 absolute(4666)
 
 
+// how to rotate k times an array 
+function rotate(nums, k) {
+  k = k % nums.length;
+ for (let i = 0; i < k; i++) {
+   const back = nums.pop();
+   nums.unshift(back);
+ }
+ console.log(nums);
+ return nums;
+}
+
+rotate([1, 2, 3, 4, 5, 6, 7], 3);
