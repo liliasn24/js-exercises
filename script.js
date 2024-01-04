@@ -796,3 +796,18 @@ function rotate(nums, k) {
 }
 
 rotate([1, 2, 3, 4, 5, 6, 7], 3);
+
+//return the first repeated item/character
+function repeatedItem(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = i + 1; j < array.length; j++) {
+      if (array[i] === array[j]) {
+        // console.log(array[i]);
+        return array[i];
+      }
+    }
+  }
+  return undefined;
+}
+
+repeatedItem([6, 5, 1, 2, 3, 5]);
